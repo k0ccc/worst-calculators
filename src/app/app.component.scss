@@ -1,0 +1,36 @@
+// Navbar 
+nav {
+
+    ul {
+        overflow: hidden;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        // border-radius: 0px 0px 30px 30px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+
+        li {
+            a {
+                float: left;
+                display: block;
+                color: rgb(255, 255, 255);
+                text-align: left;
+                font-size: large;
+                padding: 18px 25px;
+                text-decoration: none;
+            }
+
+            a:hover:not(.active) {
+                background-color: rgb(94, 94, 94);
+            }
+        }
+
+    }
+}
