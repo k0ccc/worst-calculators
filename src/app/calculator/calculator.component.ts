@@ -22,7 +22,6 @@ export class CalculatorComponent implements OnInit {
   @Input() equation: string = '';
 
   resultNumber: number = 0;
-  tempNumber:number = 0;
   lastUsedSymbol:Symbols = 4
 
   result() {
